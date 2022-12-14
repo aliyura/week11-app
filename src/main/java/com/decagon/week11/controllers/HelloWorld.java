@@ -13,7 +13,7 @@ public class HelloWorld {
 
     @GetMapping("thanks")
     public String sayThanks(){
-        return "Thank you";
+        return "Thank you from CICD";
     }
 
 }
