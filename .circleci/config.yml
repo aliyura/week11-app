@@ -22,6 +22,10 @@ jobs:
           name: Packaging
           command : mvn clean package
 
+      -  run:
+           name: Say Hello
+           command :  echo "Hello World"
+
       - run:
           name: Setting up Docker
           command: |
